@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">2021-11-11-mobilIKT</string>
+    <string name="open">Nyitva</string>
+    <string name="close">Zárva</string>
 </resources>

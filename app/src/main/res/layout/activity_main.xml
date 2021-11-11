@@ -22,7 +22,21 @@
             android:elevation="4dp"
             android:id="@+id/toolbar"
             />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ez egy navigation drawer teszt"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:textStyle="bold"/>
 
     </LinearLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:id="@+id/navigation_view"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/menu_items"/>
 
 </androidx.drawerlayout.widget.DrawerLayout>
